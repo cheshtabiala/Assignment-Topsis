@@ -41,8 +41,14 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 
 3. Navigate to the project directory:
 
+      ```bash
+   git clone https://github.com/cheshtabiala/Assignment-Topsis
+
    
 4.Run the TOPSIS script with the required command-line arguments:
+
+      ```bash
+   python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
 
 
 5.The TOPSIS analysis will be performed, and the result will be saved to the specified CSV file.
@@ -58,10 +64,16 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 - `<ResultFileName>`: Desired name for the output CSV result file.
 
 
-##Input
+## Input
+
+
 <img width="278" alt="Screenshot 2024-01-28 at 5 05 32 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/9e36c515-eaab-4b3a-b373-3a56cdf963c5">
 
-##Output
+## Results
+<img width="472" alt="Screenshot 2024-01-28 at 5 05 01 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/a0276a4f-3f49-428e-9677-f8bb87cd6288">
+
+<img width="655" alt="Screenshot 2024-01-28 at 5 04 40 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/38e64040-0571-4e3b-95f2-cc3af59e54f8">
+
 ## Requirements
 
 - Python 3.x
@@ -72,8 +84,18 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 
 You can install the required packages using the following command:
 
-```bash
-pip install -r requirements.txt
+   
+   ```bash
+      pip install -r requirements.
+
+      pip install Topsis-CheshtaBiala-102103545
+
+
+
+
+
+
+
 
 
 
