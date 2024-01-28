@@ -1,8 +1,37 @@
-# **Assignment - Topsis**
+Project description
+TOPSIS Implementation in
 
----
-### **Step 1** - Learn Topsis - <a href="https://www.youtube.com/watch?v=kfcN7MuYVeI">Link-1</a>, <a href="https://www.youtube.com/watch?v=9P9Gs8o9oHk">Link-2</a>
+This repository contains a Python implementation of the Technique for Order Preference by Similarity to Ideal Solution (TOPSIS). TOPSIS is a multi-criteria decision-making method that helps in ranking a set of alternatives based on their proximity to the ideal solution.
 
-### **Step 2** - Learn "How to publish Python package" on <a href="https://pypi.org/">pypi.org</a> - <a href="https://medium.com/@joel.barmettler/how-to-upload-your-python-package-to-pypi-65edc5fe9c56">Link-1</a>, <a href="https://www.youtube.com/watch?v=Qs91v2Tofys">Link-2</a>, <a href="https://www.youtube.com/watch?v=tEFkHEKypLI">Link-3</a>
+Usage To use this TOPSIS implementation, follow these steps:
 
-### **Step 3** - Download and Explore "Assignment - Topsis.pdf" for more information.
+1.Ensure you have Python installed on your system.
+
+2.Clone this repository to your local machine:
+
+    git clone https://github.com/cheshtabiala/Assignment-Topsis
+3.Navigate to the project directory:
+
+    cd your-repo
+4.Run the TOPSIS script with the required command-line arguments:
+
+    python topsis.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
+    Example:python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
+5.The TOPSIS analysis will be performed, and the result will be saved to the specified CSV file.
+
+Command-line Arguments:
+
+: Path to the input CSV file containing the decision matrix.
+
+: Comma-separated weights for each criterion.
+
+: Comma-separated impact signs for each criterion (use '+' for beneficial criteria and '-' for non-beneficial criteria).
+
+: Desired name for the output CSV result file.
+
+    Example:python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
+Requirements: Python 3.x pandas numpy
+
+Author: Cheshta Biala
+
+License: This project is licensed under the MIT License - see the LICENSE.md file for details.
