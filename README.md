@@ -47,8 +47,8 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
    
 4.Run the TOPSIS script with the required command-line arguments:
 
-```terminal
-python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
+      ```
+      python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
 
 
                          
@@ -92,7 +92,9 @@ You can install the required packages using the following command:
 
 
                                                                               
-   
+   ```
+   pip install Topsis-CheshtaBiala-102103545
+   ```
                                                                                                       `
      
 
