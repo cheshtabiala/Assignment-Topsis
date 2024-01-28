@@ -46,9 +46,10 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 
    
 4.Run the TOPSIS script with the required command-line arguments:
-
-      ```bash
+               ```bash
    python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
+            
+            
 
 
 5.The TOPSIS analysis will be performed, and the result will be saved to the specified CSV file.
@@ -85,10 +86,18 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 You can install the required packages using the following command:
 
    
-   ```bash
-      pip install -r requirements.
+                           ```bash
+                           pip install -r requirements.
 
-      pip install Topsis-CheshtaBiala-102103545
+     
+
+## Author
+
+Cheshta Biala
+
+## LICENSE
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
 
