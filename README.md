@@ -11,9 +11,8 @@ This repository contains a Python implementation of the Technique for Order Pref
 5. [Results](#results)
 6. [Requirements](#requirements)
 7. [Installation](#installation)
-8. [Example](#example)
-9. [Author](#author)
-10. [License](#license)
+8. [Author](#author)
+9. [License](#license)
 
 ## Introduction
 
@@ -47,7 +46,7 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
    
 4.Run the TOPSIS script with the required command-line arguments:
 
-      ```
+   
       python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
 
 
@@ -88,18 +87,9 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 
 ## Installation
 
-You can install the required packages using the following command:
-
-
-                                                                              
-            
-            pip install Topsis-CheshtaBiala-102103545
-   
-                                                                                                      `
-
-
-     
-
+You can install the required packages using the following command:                                                                                   
+      pip install Topsis-CheshtaBiala-102103545
+                                                                                                         
 ## Author
 
 Cheshta Biala
