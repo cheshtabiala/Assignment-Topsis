@@ -38,3 +38,43 @@ The Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) is a
 
    ```bash
    git clone https://github.com/cheshtabiala/Assignment-Topsis
+
+3. Navigate to the project directory:
+
+   
+4.Run the TOPSIS script with the required command-line arguments:
+
+
+5.The TOPSIS analysis will be performed, and the result will be saved to the specified CSV file.
+
+## Command-line Arguments
+
+- `<InputDataFile>`: Path to the input CSV file containing the decision matrix.
+
+- `<Weights>`: Comma-separated weights for each criterion.
+
+- `<Impacts>`: Comma-separated impact signs for each criterion (use '+' for beneficial criteria and '-' for non-beneficial criteria).
+
+- `<ResultFileName>`: Desired name for the output CSV result file.
+
+
+##Input
+<img width="278" alt="Screenshot 2024-01-28 at 5 05 32 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/9e36c515-eaab-4b3a-b373-3a56cdf963c5">
+
+##Output
+## Requirements
+
+- Python 3.x
+- pandas
+- numpy
+
+## Installation
+
+You can install the required packages using the following command:
+
+```bash
+pip install -r requirements.txt
+
+
+
+   
