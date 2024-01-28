@@ -40,16 +40,19 @@ Ensure you have Python installed on your system.
 
 2.Clone this repository to your local machine:
 
+```bash
 git clone https://github.com/cheshtabiala/Assignment-Topsis
-3.Navigate to the project directory:
 
+3.Navigate to the project directory:
+```bash
 cd your-repo
 
 4.Run the TOPSIS script with the required command-line arguments:
 
 python topsis.py <InputDataFile> <Weights> <Impacts> <ResultFileName>
-Example:
 
+Example:
+```bash
 python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
 
 5.The TOPSIS analysis will be performed, and the result will be saved to the specified CSV file.
@@ -65,16 +68,19 @@ Command-line Arguments
 •	<ResultFileName>: Desired name for the output CSV result file.
 
 Example:
-
+```bash
 python topsis.py input_data.csv "1,1,1,2" "+,+,-,+" result.csv
 
 Input
- 
+ <img width="278" alt="Screenshot 2024-01-28 at 5 05 32 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/a163d172-c9c0-41d3-9370-828c79feab5c">
+
 
 Results
 
- 
- 
+ <img width="472" alt="Screenshot 2024-01-28 at 5 05 01 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/33594ea9-08b6-406f-b919-587ad3aaba5f">
+
+ <img width="655" alt="Screenshot 2024-01-28 at 5 04 40 PM" src="https://github.com/cheshtabiala/Assignment-Topsis/assets/94442128/d1492ccf-689b-43bb-8632-f148caa5789a">
+
 
 
 Requirements
@@ -85,10 +91,11 @@ Requirements
 
 Installation
 
-      You can install the required packages using the following command:
-
-•	pip install -r requirements.txt
-Example: 
+You can install the required packages using the following command:
+```bash
+pip install -r requirements.txt
+Example:
+```bash
 pip install Topsis-CheshtaBiala-102103545
 
 Author
